@@ -349,7 +349,7 @@ class FormBuilderTypeAhead<T> extends FormBuilderFieldDecoration<T> {
     this.autoFlipListDirection = true,
     this.autoFlipMinHeight = 64.0,
     this.hideKeyboardOnDrag = false,
-    this.ignoreAccessibleNavigation = false,
+    this.ignoreAccessibleNavigation = true,
     this.intercepting = false,
     this.itemSeparatorBuilder,
     this.layoutArchitecture,
